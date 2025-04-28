@@ -88,9 +88,8 @@ IDIOMAS_POR_PAIS = {
     "CN": "zh-CN"
 }
 
-# Configuração do Google Sheets (substitua pelo seu ID)
-SHEET_ID = "SEU_ID_DA_PLANILHA"
-SHEET_RANGE = "Página1!A:F"
+# Configurações da planilha
+SPREADSHEET_ID = ''  # Adicione o ID da sua planilha aqui
 
 # ------------------------ FUNÇÕES DO GOOGLE DRIVE ------------------------
 def get_drive_service():
@@ -234,7 +233,6 @@ def get_sheets_service():
 def ler_planilha():
     """Lê a planilha do Google Sheets e retorna um DataFrame."""
     service = get_sheets_service()
-    SPREADSHEET_ID = '1QQ7_ByU8siGV_NAMXM-fWiEt60fyPOJp0h-RshNsFeg'
     RANGE_NAME = 'Página1!A:F'
     
     result = service.spreadsheets().values().get(

@@ -20,8 +20,8 @@ DIMENSOES = (336, 280)      # Dimensões compatíveis com Google Ads
 LOGO_SIZE = (45, 14)        # Tamanho da logo
 DEFAULT_CRIATIVOS_QUANTIDADE = 3  # Quantidade padrão para geração de criativos
 
-# Planilha do Google Sheets
-SHEET_ID = "1QQ7_ByU8siGV_NAMXM-fWiEt60fyPOJp0h-RshNsFeg"
+# Configurações da planilha
+SHEET_ID = ""  # Adicione o ID da sua planilha aqui
 SHEET_RANGE = "Página1!A:F"  # Intervalo definido para as 6 colunas
 
 # ------------------------ CONFIGURAÇÕES DO WEBHOOK ------------------------

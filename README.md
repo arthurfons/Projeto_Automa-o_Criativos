@@ -45,8 +45,15 @@ pip install -r requirements.txt
    - Crie uma pasta para logos
 
 2. **Google Sheets**:
-   - Use a planilha com ID: `1QQ7_ByU8siGV_NAMXM-fWiEt60fyPOJp0h-RshNsFeg`
-   - A planilha deve ter as colunas: Site, ID da Conta, Nome da Conta, ID do Grupo de Anúncios, Campanha, País
+   - Crie uma nova planilha no Google Sheets
+   - A planilha deve ter as seguintes colunas:
+     - Site
+     - ID da Conta
+     - Nome da Conta
+     - ID do Grupo de Anúncios
+     - Campanha
+     - País
+   - Compartilhe a planilha com o email da conta de serviço que você criou
 
 ## 📦 Estrutura de Pastas
 
@@ -110,7 +117,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👥 Autores
 
-- Seu Nome - [GitHub](https://github.com/seu-usuario)
+- Arthur Fonseca - [GitHub](https://github.com/Arthurfons)
 
 ## 🙏 Agradecimentos
 
