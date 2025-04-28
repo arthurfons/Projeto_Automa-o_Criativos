@@ -25,7 +25,7 @@ SHEET_ID = ""  # Adicione o ID da sua planilha aqui
 SHEET_RANGE = "Página1!A:F"  # Intervalo definido para as 6 colunas
 
 # ------------------------ CONFIGURAÇÕES DO WEBHOOK ------------------------
-WEBHOOK_URL = "https://discordapp.com/api/webhooks/1354872528786428126/V5BEW5vA4GN_JpuonnaQ54LmpRoz7J2t2oxZd9JCVtGkO6vWxQSirCyU0E8YXVxGP-oB"
+WEBHOOK_URL = ""  # Adicione a URL do seu webhook do Discord aqui
 
 # Arquivo de log para contas com erros de acesso
 ERROR_LOG_FILE = "erro_de_acesso_contas.txt"
