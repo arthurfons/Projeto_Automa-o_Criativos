@@ -1,0 +1,6 @@
+pillow
+google-ads
+google-api-python-client
+pandas
+pymysql
+tqdm 

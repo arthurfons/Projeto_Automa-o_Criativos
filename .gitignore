@@ -1,0 +1,47 @@
+# Credenciais
+*.json
+google-ads.yaml
+
+# Arquivos de log
+*.log
+erro_de_acesso_contas.txt
+blocked_accounts.txt
+
+# Cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Diretórios de output
+output/
+templates/
+logos/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db 
